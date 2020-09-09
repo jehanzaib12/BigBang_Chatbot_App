@@ -1,0 +1,19 @@
+2020-02-03 16:29:15,262 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "c:\users\ahtesham\.conda\envs\rasa\lib\site-packages\sanic\app.py", line 1096, in run
+    serve(**server_settings)
+  File "c:\users\ahtesham\.conda\envs\rasa\lib\site-packages\sanic\server.py", line 770, in serve
+    loop.run_forever()
+  File "c:\users\ahtesham\.conda\envs\rasa\lib\asyncio\base_events.py", line 442, in run_forever
+    self._run_once()
+  File "c:\users\ahtesham\.conda\envs\rasa\lib\asyncio\base_events.py", line 1462, in _run_once
+    handle._run()
+  File "c:\users\ahtesham\.conda\envs\rasa\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "c:\users\ahtesham\.conda\envs\rasa\lib\site-packages\prompt_toolkit\application\application.py", line 777, in run_async
+    return await _run_async2()
+  File "c:\users\ahtesham\.conda\envs\rasa\lib\site-packages\prompt_toolkit\application\application.py", line 759, in _run_async2
+    result = await _run_async()
+  File "c:\users\ahtesham\.conda\envs\rasa\lib\site-packages\prompt_toolkit\application\application.py", line 695, in _run_async
+    result = await f
+KeyboardInterrupt

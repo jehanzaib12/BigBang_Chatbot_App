@@ -1,0 +1,2416 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "inform",
+        "text": "Good Morning"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "entity": "name",
+            "value": "Berlin"
+          }
+        ],
+        "text": "What's the weather in Berlin at the moment?"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "inform",
+        "text": "What's the weather today?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "entity": "name",
+            "value": "London"
+          }
+        ],
+        "text": "What's the weather in London today?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "entity": "name",
+            "value": "Paris"
+          }
+        ],
+        "text": "Show me what's the weather in Paris"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 32,
+            "end": 39,
+            "entity": "name",
+            "value": "Vilnius"
+          }
+        ],
+        "text": "I wonder what is the weather in Vilnius right now?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 30,
+            "end": 38,
+            "entity": "name",
+            "value": "Kaybees "
+          }
+        ],
+        "text": "I wonder what is the deals in Kaybees right now?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "entity": "name",
+            "value": "ScotLand"
+          }
+        ],
+        "text": "What is the weather of ScotLand right now?"
+      },
+      {
+        "intent": "inform",
+        "text": "what is the weather?"
+      },
+      {
+        "intent": "inform",
+        "text": "Tell me the weather"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "entity": "name",
+            "value": "Barcelona"
+          }
+        ],
+        "text": "Is the weather nice in Barcelona today?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "entity": "name",
+            "value": "London"
+          }
+        ],
+        "text": "I am going to London today and I wonder what is the weather out there?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "entity": "name",
+            "value": "Amsterdam"
+          }
+        ],
+        "text": "I am planning my trip to Amsterdam. What is the weather out there?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "entity": "name",
+            "value": "Dublin"
+          }
+        ],
+        "text": "Show me the weather in Dublin, please"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "entity": "name",
+            "value": "London"
+          }
+        ],
+        "text": "in London"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "entity": "name",
+            "value": "Paris"
+          }
+        ],
+        "text": "in Paris"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "entity": "name",
+            "value": "Kaybees"
+          }
+        ],
+        "text": "in Kaybees"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "entity": "name",
+            "value": "Lithuania"
+          }
+        ],
+        "text": "Lithuania"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "entity": "name",
+            "value": "Vilnius"
+          }
+        ],
+        "text": "Tell me the weather in Vilnius"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "entity": "name",
+            "value": " Italy"
+          }
+        ],
+        "text": "The weather condition in Italy"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "entity": "name",
+            "value": "Scotland"
+          }
+        ],
+        "text": "what is the weather in Scotland today?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 35,
+            "entity": "name",
+            "value": "Kaybees"
+          }
+        ],
+        "text": "I need to know the deals of Kaybees?"
+      },
+      {
+        "intent": "inform",
+        "text": "weather details"
+      },
+      {
+        "intent": "brand_deals",
+        "text": "brands details?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "entity": "name",
+            "value": "kaybees",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "in kaybees"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 14,
+            "entity": "name",
+            "value": "China Grill"
+          }
+        ],
+        "text": "in China Grill"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 15,
+            "entity": "name",
+            "value": "China Bistro"
+          }
+        ],
+        "text": "in China Bistro"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "entity": "name",
+            "value": "china bistro",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "China Bistro"
+      },
+      {
+        "intent": "inform",
+        "text": "italy"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 35,
+            "entity": "name",
+            "value": "kaybees",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "I need to know the deals of Kaybees"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 34,
+            "entity": "name",
+            "value": "dental square"
+          }
+        ],
+        "text": "I need to know about dental square"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "entity": "name",
+            "value": "white pearl"
+          }
+        ],
+        "text": "need to know about white pearl"
+      },
+      {
+        "intent": "inform",
+        "text": "do you have any detail for dental square?"
+      },
+      {
+        "intent": "inform",
+        "text": "do you have dental square brand?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 32,
+            "entity": "name",
+            "value": "dental square",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "need to know about dental square"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "entity": "name",
+            "value": "kaybees"
+          }
+        ],
+        "text": "need to know about kaybees?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "entity": "name",
+            "value": "kaybees",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "deals of kaybees"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "entity": "name",
+            "value": "kaybees",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "in kaybees?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "entity": "city_name",
+            "value": "Karachi"
+          }
+        ],
+        "text": "I live in Karachi"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "entity": "city_name",
+            "value": "Lahore"
+          }
+        ],
+        "text": "I live in Lahore"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "entity": "city_name",
+            "value": "Sialkot"
+          }
+        ],
+        "text": "I live in Sialkot"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "entity": "city_name",
+            "value": "islamabad",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Islamabad"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "entity": "category_name",
+            "value": "lifestyle",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Lifestyle"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "entity": "category_name",
+            "value": "food & drinks",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Food & Drinks"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "entity": "category_name",
+            "value": "Services"
+          }
+        ],
+        "text": "Services"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "entity": "city_name",
+            "value": "karachi",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Karachi"
+      },
+      {
+        "intent": "inform",
+        "text": "category"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "entity": "category_name",
+            "value": "food & drinks",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "food & drinks"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "entity": "category_name",
+            "value": "food & drinks"
+          }
+        ],
+        "text": "food & drinks"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "entity": "category_name",
+            "value": "lifestyle",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "lifestyle"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "entity": "category_name",
+            "value": "beauty & fitness"
+          }
+        ],
+        "text": "beauty & fitness"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "entity": "category_name",
+            "value": "entertainment"
+          }
+        ],
+        "text": "entertainment"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "entity": "category_name",
+            "value": "healthcare"
+          }
+        ],
+        "text": "healthcare"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "entity": "category_name",
+            "value": "lifestyle"
+          }
+        ],
+        "text": "in lifestyle"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 16,
+            "entity": "category_name",
+            "value": "food & drinks"
+          }
+        ],
+        "text": "in food & drinks"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "entity": "category_name",
+            "value": "lifestyle",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "in Lifestyle"
+      },
+      {
+        "intent": "brand_deals",
+        "text": "brand"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "entity": "name",
+            "value": "ego",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "EGO"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "entity": "name",
+            "value": "pranzo",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "pranzo"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "entity": "name",
+            "value": "kaybees",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "kaybees"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "entity": "name",
+            "value": "kaybees",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Kaybees"
+      },
+      {
+        "intent": "brand_deals",
+        "text": "brands detail?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "entity": "city_name",
+            "value": "karachi",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "karachi"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "entity": "city_name",
+            "value": "karachi",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "KArachi"
+      },
+      {
+        "intent": "goodbye",
+        "text": "ok"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "entity": "name",
+            "value": "ego",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "ego"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "entity": "name",
+            "value": "EGO"
+          }
+        ],
+        "text": "EGO"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "entity": "name",
+            "value": "EGO"
+          }
+        ],
+        "text": "in EGO"
+      },
+      {
+        "intent": "greet",
+        "text": "thankyou"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "entity": "name",
+            "value": "Francesco Romero"
+          }
+        ],
+        "text": "Francesco Romero"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "entity": "name",
+            "value": "blooming",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "blooming"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "entity": "city_name",
+            "value": "islamabad",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "islamabad"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "entity": "city_name",
+            "value": "lahore"
+          }
+        ],
+        "text": "lahore"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "entity": "city_name",
+            "value": "faisalabad"
+          }
+        ],
+        "text": "faisalabad"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "entity": "name",
+            "value": "pranzo "
+          }
+        ],
+        "text": "pranzo "
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "entity": "name",
+            "value": "lalqila"
+          }
+        ],
+        "text": "lalqila"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "entity": "name",
+            "value": "pranzo"
+          }
+        ],
+        "text": "pranzo"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "entity": "name",
+            "value": "oh my grill"
+          }
+        ],
+        "text": "oh my grill"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "entity": "name",
+            "value": "krispy2go"
+          }
+        ],
+        "text": "krispy2go"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "entity": "name",
+            "value": "house of burgers"
+          }
+        ],
+        "text": "house of burgers"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "entity": "name",
+            "value": "hob"
+          }
+        ],
+        "text": "hob"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "entity": "name",
+            "value": "port grand"
+          }
+        ],
+        "text": "port grand"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "entity": "name",
+            "value": "akbari nihari"
+          }
+        ],
+        "text": "akbari nihari"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "entity": "name",
+            "value": "akbari nihari - port grand"
+          }
+        ],
+        "text": "akbari nihari - port grand"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "entity": "name",
+            "value": "babujees - port grand"
+          }
+        ],
+        "text": "babujees - port grand"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "entity": "name",
+            "value": "city bistro - port grand"
+          }
+        ],
+        "text": "city bistro - port grand"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "entity": "name",
+            "value": "angelinis - port grand"
+          }
+        ],
+        "text": "angelinis - port grand"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "entity": "name",
+            "value": "rosati bistro"
+          }
+        ],
+        "text": "rosati bistro"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "entity": "name",
+            "value": "chaupal desi exotic buffet"
+          }
+        ],
+        "text": "chaupal desi exotic buffet"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "entity": "name",
+            "value": "sajjad restaurant"
+          }
+        ],
+        "text": "sajjad restaurant"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "entity": "name",
+            "value": "paramount"
+          }
+        ],
+        "text": "paramount"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "entity": "name",
+            "value": "charcoal bbq n grill"
+          }
+        ],
+        "text": "charcoal bbq n grill"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "entity": "name",
+            "value": "gardenia - port grand"
+          }
+        ],
+        "text": "gardenia - port grand"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "entity": "name",
+            "value": "mocca coffee"
+          }
+        ],
+        "text": "mocca coffee"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "entity": "name",
+            "value": "PRANZO"
+          }
+        ],
+        "text": "PRANZO"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "entity": "name",
+            "value": "Pranzo"
+          }
+        ],
+        "text": "Pranzo"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "entity": "name",
+            "value": "Oh My Grill"
+          }
+        ],
+        "text": "Oh My Grill"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "entity": "name",
+            "value": "HOB - House Of Burgers"
+          }
+        ],
+        "text": "HOB - House Of Burgers"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "entity": "name",
+            "value": "Babujees - Port Grand"
+          }
+        ],
+        "text": "Babujees - Port Grand"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "entity": "name",
+            "value": "Krispy2GO"
+          }
+        ],
+        "text": "Krispy2GO"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "entity": "name",
+            "value": "Burgerism"
+          }
+        ],
+        "text": "Burgerism"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "entity": "name",
+            "value": "Lalqila"
+          }
+        ],
+        "text": "Lalqila"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "entity": "name",
+            "value": "Yellow Clothing"
+          }
+        ],
+        "text": "Yellow Clothing"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "entity": "name",
+            "value": "EDGE Republic"
+          }
+        ],
+        "text": "EDGE Republic"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "entity": "name",
+            "value": "My Foot"
+          }
+        ],
+        "text": "My Foot"
+      },
+      {
+        "intent": "brand_deals",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "entity": "name",
+            "value": "Test Brand"
+          }
+        ],
+        "text": "Test Brand"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "entity": "name",
+            "value": "Deeva's Men"
+          }
+        ],
+        "text": "Deeva's Men"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "entity": "name",
+            "value": "Orchard.pk"
+          }
+        ],
+        "text": "Orchard.pk"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "entity": "name",
+            "value": "Gravity"
+          }
+        ],
+        "text": "Gravity"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "entity": "name",
+            "value": "Wrangler Store"
+          }
+        ],
+        "text": "Wrangler Store"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "entity": "name",
+            "value": "Club M"
+          }
+        ],
+        "text": "Club M"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 29,
+            "entity": "name",
+            "value": "Peng's Salons - KDA For Women"
+          }
+        ],
+        "text": "Peng's Salons - KDA For Women"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "entity": "name",
+            "value": "Pengs Salons - KDA For Men"
+          }
+        ],
+        "text": "Pengs Salons - KDA For Men"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "entity": "name",
+            "value": "Bellagio By Sadaf"
+          }
+        ],
+        "text": "Bellagio By Sadaf"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "entity": "name",
+            "value": "Chain Of Get Smart Gym"
+          }
+        ],
+        "text": "Chain Of Get Smart Gym"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "entity": "name",
+            "value": "Jazba Fitness"
+          }
+        ],
+        "text": "Jazba Fitness"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "entity": "name",
+            "value": "Meraki Womens Salon"
+          }
+        ],
+        "text": "Meraki Womens Salon"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "entity": "name",
+            "value": "Hair'o"
+          }
+        ],
+        "text": "Hair'o"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "entity": "name",
+            "value": "Hina Arif Salon"
+          }
+        ],
+        "text": "Hina Arif Salon"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "entity": "name",
+            "value": "Abelia Beauty Salon"
+          }
+        ],
+        "text": "Abelia Beauty Salon"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "entity": "name",
+            "value": "The Dental Habitat"
+          }
+        ],
+        "text": "The Dental Habitat"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "entity": "name",
+            "value": "Chugtai lab"
+          }
+        ],
+        "text": "Chugtai lab"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "entity": "name",
+            "value": "Jacked Nutrition"
+          }
+        ],
+        "text": "Jacked Nutrition"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 38,
+            "entity": "name",
+            "value": "Advance Dental Care Consultants Clinic"
+          }
+        ],
+        "text": "Advance Dental Care Consultants Clinic"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "entity": "name",
+            "value": "Cosmo Pharma"
+          }
+        ],
+        "text": "Cosmo Pharma"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "entity": "name",
+            "value": "Pharmaprixx Pharmacy"
+          }
+        ],
+        "text": "Pharmaprixx Pharmacy"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "entity": "name",
+            "value": "The Dental Clinic"
+          }
+        ],
+        "text": "The Dental Clinic"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "entity": "name",
+            "value": "Elite Dental Clinic"
+          }
+        ],
+        "text": "Elite Dental Clinic"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 25,
+            "entity": "name",
+            "value": "Dr. Shouket Dental Clinic"
+          }
+        ],
+        "text": "Dr. Shouket Dental Clinic"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "entity": "name",
+            "value": "Dr. Danish Dental Clinic"
+          }
+        ],
+        "text": "Dr. Danish Dental Clinic"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "entity": "category_name",
+            "value": "services"
+          }
+        ],
+        "text": "services"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "entity": "category_name",
+            "value": "Education"
+          }
+        ],
+        "text": "Education"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "entity": "name",
+            "value": "moh",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "moh"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "entity": "name",
+            "value": "Cosmos child care"
+          }
+        ],
+        "text": "Cosmos child care"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "entity": "name",
+            "value": "DigiDoze"
+          }
+        ],
+        "text": "DigiDoze"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "entity": "name",
+            "value": "Al-Hamd Academy"
+          }
+        ],
+        "text": "Al-Hamd Academy"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "entity": "name",
+            "value": "Super Old Books"
+          }
+        ],
+        "text": "Super Old Books"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "entity": "name",
+            "value": "Twinkling Stars Home School"
+          }
+        ],
+        "text": "Twinkling Stars Home School"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "entity": "name",
+            "value": "kybes",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "kybes"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "entity": "name",
+            "value": "kybs",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "kybs"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "entity": "name",
+            "value": "kaybs",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "kaybs"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "entity": "name",
+            "value": "egooo",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "egooo"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "entity": "name",
+            "value": "egoooo",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "egoooo"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "entity": "city_name",
+            "value": "khi",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "khi"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "entity": "category_name",
+            "value": "fd",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "fd"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "entity": "city_name",
+            "value": "lhr",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "lhr"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "entity": "city_name",
+            "value": "lh",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "lh"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "entity": "city_name",
+            "value": "fsd",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "fsd"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "entity": "city_name",
+            "value": "lho",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "lho"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "entity": "name",
+            "value": "kaybees",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "I need to know about kaybees"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "entity": "category_name",
+            "value": "education",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "education"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "entity": "city_name",
+            "value": "karachi",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "hello my city is karachi"
+      },
+      {
+        "intent": "brand_deals",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "entity": "name",
+            "value": "ego",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "brand deals of ego"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 35,
+            "end": 44,
+            "entity": "category_name",
+            "value": "lifestyle",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "i need to know the brand offers of lifestyle"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "entity": "city_name",
+            "value": "karachi",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "I live in Karachi and my category is lifestyle, please tell me the quickest brands and offers"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "entity": "city_name",
+            "value": "Karachi"
+          },
+          {
+            "start": 37,
+            "end": 46,
+            "entity": "category_name",
+            "value": "lifestyle"
+          }
+        ],
+        "text": "I live in Karachi and my category is lifestyle, please tell me the quickest brands and offers"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "entity": "city_name",
+            "value": "karachi",
+            "extractor": "CRFEntityExtractor"
+          },
+          {
+            "start": 38,
+            "end": 47,
+            "entity": "category_name",
+            "value": "lifestyle",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "my city is Karachi and my category is lifestyle"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "entity": "city_name",
+            "value": "karachi"
+          },
+          {
+            "start": 44,
+            "end": 47,
+            "entity": "name",
+            "value": "ego"
+          }
+        ],
+        "text": "i live in karachi and my favourite brand is ego"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "entity": "city_name",
+            "value": "lahore"
+          },
+          {
+            "start": 36,
+            "end": 50,
+            "entity": "category_name",
+            "value": "foods & drinks"
+          },
+          {
+            "start": 72,
+            "end": 79,
+            "entity": "name",
+            "value": "kaybees"
+          }
+        ],
+        "text": "i live in lahore and my category is foods & drinks and my brand name is kaybees"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "entity": "city_name",
+            "value": "karachi",
+            "extractor": "CRFEntityExtractor"
+          },
+          {
+            "start": 38,
+            "end": 47,
+            "entity": "category_name",
+            "value": "lifestyle",
+            "extractor": "CRFEntityExtractor"
+          },
+          {
+            "start": 64,
+            "end": 67,
+            "entity": "name",
+            "value": "ego",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "my city is Karachi and my category is lifestyle and my brand is ego"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "entity": "category_name",
+            "value": "lifestyle",
+            "extractor": "CRFEntityExtractor"
+          },
+          {
+            "start": 38,
+            "end": 41,
+            "entity": "name",
+            "value": "ego",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "my category is lifestyle and brand is ego"
+      },
+      {
+        "intent": "greet",
+        "text": "hellow"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye "
+      },
+      {
+        "intent": "goodbye",
+        "text": "thanks"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "thankyou so much"
+      },
+      {
+        "intent": "goodbye",
+        "text": "ok thanks"
+      },
+      {
+        "intent": "goodbye",
+        "text": "okay thankyou "
+      },
+      {
+        "intent": "inform",
+        "text": "yes"
+      },
+      {
+        "intent": "goodbye",
+        "text": "no"
+      },
+      {
+        "intent": "goodbye",
+        "text": "No, thankyou"
+      },
+      {
+        "intent": "goodbye",
+        "text": "No, thanks"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "entity": "reviews",
+            "value": "Show me people opinion"
+          }
+        ],
+        "text": "Show me people opinion"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "entity": "irrelevant_response",
+            "value": "i don't understand"
+          }
+        ],
+        "text": "i don't understand"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "entity": "irrelevant_response",
+            "value": "what",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "what"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "entity": "irrelevant_response",
+            "value": "aerasads",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "aerasads"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "entity": "reviews",
+            "value": "display reviews",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "display reviews"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "entity": "reviews",
+            "value": "reviews"
+          }
+        ],
+        "text": "reviews"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "entity": "email",
+            "value": "attitudebreaker17@gmail.com",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "attitudebreaker17@gmail.com"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "entity": "offers",
+            "value": "get more offers",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Get More Offers"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "entity": "offers",
+            "value": "get more offers",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "get more offers"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "entity": "name",
+            "value": "wqeqwe",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "wqeqwe"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "entity": "name",
+            "value": "qweax",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "qweax"
+      },
+      {
+        "intent": "brand_deals",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "entity": "brand_detail",
+            "value": "brand_details"
+          }
+        ],
+        "text": "brand_details"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "entity": "irrelevant_response",
+            "value": "qweasd"
+          }
+        ],
+        "text": "qweasd"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "entity": "irrelevant_response",
+            "value": "qwdaszxvc"
+          }
+        ],
+        "text": "qwdaszxvc"
+      },
+      {
+        "intent": "brand_deals",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "entity": "brand_detail",
+            "value": "brand offers"
+          }
+        ],
+        "text": "brand offers"
+      },
+      {
+        "intent": "inform",
+        "text": "thwef"
+      },
+      {
+        "intent": "inform",
+        "text": "i dont know"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "entity": "reviews",
+            "value": "display reviews",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Display Reviews"
+      },
+      {
+        "intent": "inform",
+        "text": "i dont wanna tell"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "entity": "name",
+            "value": "asdqwe",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "asdqwe"
+      },
+      {
+        "intent": "inform",
+        "text": "lifestye"
+      },
+      {
+        "intent": "inform",
+        "text": "i cant tell"
+      },
+      {
+        "intent": "brand_deals",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "entity": "brand_detail",
+            "value": "Brand deals?"
+          }
+        ],
+        "text": "Brand deals?"
+      },
+      {
+        "intent": "greet",
+        "text": "get started"
+      },
+      {
+        "intent": "goodbye",
+        "text": "no thankyou"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "entity": "reviews",
+            "value": "display",
+            "extractor": "CRFEntityExtractor"
+          },
+          {
+            "start": 8,
+            "end": 14,
+            "entity": "reviews",
+            "value": "review",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "display review"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "entity": "reviews",
+            "value": "review"
+          }
+        ],
+        "text": "show me review"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "entity": "reviews",
+            "value": "review"
+          }
+        ],
+        "text": "display review"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "entity": "name",
+            "value": "abc@gmail.com",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "abc@gmail.com"
+      },
+      {
+        "intent": "brand_deals",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "entity": "brand_detail",
+            "value": "brand detail"
+          }
+        ],
+        "text": "brand detail"
+      },
+      {
+        "intent": "brand_deals",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "entity": "brand_detail",
+            "value": "brand details",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "brand details"
+      },
+      {
+        "intent": "brand_deals",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "entity": "brand_detail",
+            "value": "brand deals",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "brand deals"
+      },
+      {
+        "intent": "goodbye",
+        "text": "yes, thankyou"
+      },
+      {
+        "intent": "goodbye",
+        "text": "thankyou"
+      },
+      {
+        "intent": "brand_deals",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "entity": "brand_detail",
+            "value": "brand deals?",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "brand deals?"
+      },
+      {
+        "intent": "goodbye",
+        "text": "okay bye"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "entity": "offers",
+            "value": "Get More Offers"
+          }
+        ],
+        "text": "Get More Offers"
+      },
+      {
+        "intent": "inform",
+        "text": "i need to know about brand details"
+      },
+      {
+        "intent": "goodbye",
+        "text": "okay thanks"
+      }
+    ],
+    "regex_features": [
+      {
+        "id": 1,
+        "name": "kaybees",
+        "pattern": "[A-Z]{7}"
+      }
+    ],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

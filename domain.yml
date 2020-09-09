@@ -1,0 +1,95 @@
+session_config:
+  session_expiration_time: 0.0
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- inform
+- brand_deals
+- ask_reminder_category:
+    triggers: action_category_reminder
+- ask_city_reminder:
+    triggers: action_city_reminder
+- ask_reminder_brand:
+    triggers: action_brand_reminder
+- wishes
+- out_of_scope
+- ask_reminder
+entities:
+- city_name
+- category_name
+- name
+- deal_list
+- brand_list
+- irrelevant_response
+- agent_name
+- reviews
+- offers
+- email
+- brand_detail
+slots:
+  agent_name:
+    type: text
+  brand_detail:
+    type: text
+  brand_list:
+    type: list
+  category_name:
+    type: text
+  city_name:
+    type: text
+  deal_list:
+    type: list
+  email:
+    type: text
+  irrelevant_response:
+    type: text
+  name:
+    type: text
+  offers:
+    type: text
+  reply:
+    type: text
+  reviews:
+    type: text
+responses:
+  utter_greet:
+  - text: Hello! How can I help?
+    buttons:
+    - title: brand details?
+      payload: brand details?
+  utter_ask_city:
+  - text: Select Your City From Below List
+  utter_ask_category:
+  - text: Tell me the category to show you the related brands?
+  utter_goodbye:
+  - text: "If you need further assistance you can join this link to talk to our Customer Representative\
+      \ m.me/arsalan.virgo.3.\nIts being nice to talk to you,\nbye bye :)"
+  utter_ask_brand:
+  - text: Tell me your favourite brand?
+  utter_list_of_deals:
+  - text: </br>{deal_list}<br/><br/>
+  utter_list_of_brands:
+  - text: </br>{brand_list}
+actions:
+- action_greet
+- utter_greet
+- utter_ask_city
+- utter_goodbye
+- utter_ask_brand
+- utter_ask_category
+- action_brand
+- action_city
+- action_category
+- utter_list_of_deals
+- utter_list_of_brands
+- action_restart
+- action_goodbye
+- action_opinion
+- action_select_city
+- action_city_reminder
+- action_email
+- action_default_fallback
+- action_brand_reminder
+- action_category_reminder
+- action_set_reminder
