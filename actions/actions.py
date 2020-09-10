@@ -27,12 +27,13 @@ class Actiongreet(Action):
 
         try:
 
-            id = tracker.sender_id
+            #id = tracker.sender_id
             print("getting id")
+            id = 4687187787965563
             id = int(id)
             print(type(id))
             userid = requests.get(
-                "https://graph.facebook.com/{}?fields=first_name,last_name,profile_pic&access_token=EAAHdSLJzlqwBALEbHVgDZAf63SQYcb32TRVA1kyqkhcZB3EsPSJDnLCXdGiyTMGwyMTrqBC1o3rEGMaeoHgeUHx3QmRM9ic5zKKrHASIIjIqvZAsT8FIiBrmst0RAAaZCQAKq1ZBMUBE1ifG7w03NBQITirlILO61B9sDFnjs4O2PhRIFF5gICtXGvWfpfKEZD".format(
+                "https://graph.facebook.com/{}?fields=first_name,last_name,profile_pic&access_token=EAAI2m1iiQisBAHLRL2d4QZBgt3jSvJXZBDIqGZA8jHfStjYXh3G2VagFqL5AIdcRYTMIqvlV9TRky68DEXlz3DsSFL4VZBIt7G9WJV0o3jqCfGW95TXAvh3qyZBm66Nb1gLHzIBX8ZCaLUXx6o2aSOjUsCfLljUhYpZBcZBtXXjsvQZDZD".format(
                     id)).json()
             print(userid)
             print("getting userid")
@@ -46,7 +47,7 @@ class Actiongreet(Action):
             print(get_started)
             headers = {'content-type': 'application/json'}
 
-            url = "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAHdSLJzlqwBALEbHVgDZAf63SQYcb32TRVA1kyqkhcZB3EsPSJDnLCXdGiyTMGwyMTrqBC1o3rEGMaeoHgeUHx3QmRM9ic5zKKrHASIIjIqvZAsT8FIiBrmst0RAAaZCQAKq1ZBMUBE1ifG7w03NBQITirlILO61B9sDFnjs4O2PhRIFF5gICtXGvWfpfKEZD"
+            url = "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAI2m1iiQisBAHLRL2d4QZBgt3jSvJXZBDIqGZA8jHfStjYXh3G2VagFqL5AIdcRYTMIqvlV9TRky68DEXlz3DsSFL4VZBIt7G9WJV0o3jqCfGW95TXAvh3qyZBm66Nb1gLHzIBX8ZCaLUXx6o2aSOjUsCfLljUhYpZBcZBtXXjsvQZDZD"
 
             requests.post(url=url, data=json.dumps(get_started), headers=headers)
 
@@ -76,7 +77,7 @@ class Actiongreet(Action):
             # dispatcher.utter_custom_json(menu)
             print(menu)
 
-            url = "https://graph.facebook.com/v6.0/me/custom_user_settings?access_token=EAAHdSLJzlqwBALEbHVgDZAf63SQYcb32TRVA1kyqkhcZB3EsPSJDnLCXdGiyTMGwyMTrqBC1o3rEGMaeoHgeUHx3QmRM9ic5zKKrHASIIjIqvZAsT8FIiBrmst0RAAaZCQAKq1ZBMUBE1ifG7w03NBQITirlILO61B9sDFnjs4O2PhRIFF5gICtXGvWfpfKEZD"
+            url = "https://graph.facebook.com/v6.0/me/custom_user_settings?access_token=EAAI2m1iiQisBAHLRL2d4QZBgt3jSvJXZBDIqGZA8jHfStjYXh3G2VagFqL5AIdcRYTMIqvlV9TRky68DEXlz3DsSFL4VZBIt7G9WJV0o3jqCfGW95TXAvh3qyZBm66Nb1gLHzIBX8ZCaLUXx6o2aSOjUsCfLljUhYpZBcZBtXXjsvQZDZD"
 
             requests.post(url=url, data=json.dumps(menu), headers=headers)
 
@@ -90,7 +91,7 @@ class Actiongreet(Action):
             }
             print(body)
             headers = {'content-type': 'application/json'}
-            url = "https://graph.facebook.com/v5.0/me/messages?access_token=EAAHdSLJzlqwBALEbHVgDZAf63SQYcb32TRVA1kyqkhcZB3EsPSJDnLCXdGiyTMGwyMTrqBC1o3rEGMaeoHgeUHx3QmRM9ic5zKKrHASIIjIqvZAsT8FIiBrmst0RAAaZCQAKq1ZBMUBE1ifG7w03NBQITirlILO61B9sDFnjs4O2PhRIFF5gICtXGvWfpfKEZD"
+            url = "https://graph.facebook.com/v5.0/me/messages?access_token=EAAI2m1iiQisBAHLRL2d4QZBgt3jSvJXZBDIqGZA8jHfStjYXh3G2VagFqL5AIdcRYTMIqvlV9TRky68DEXlz3DsSFL4VZBIt7G9WJV0o3jqCfGW95TXAvh3qyZBm66Nb1gLHzIBX8ZCaLUXx6o2aSOjUsCfLljUhYpZBcZBtXXjsvQZDZD"
 
             requests.post(url=url, data=json.dumps(body), headers=headers)
 
@@ -159,7 +160,7 @@ class ActionSelectCity(Action):
 
             dispatcher.utter_custom_json(city)
             print(city)
-            return [ReminderScheduled("ask_city_reminder", datetime.now() + timedelta(seconds=60))]
+            return [ReminderScheduled("ask_city_reminder", datetime.now() + timedelta(seconds=300))]
         except:
             dispatcher.utter_message("BigBang Didnt recognize the text! Try Again!")
             return [FollowupAction("action_select_city")]
@@ -280,7 +281,7 @@ class ActionCity(Action):
                 dispatcher.utter_message(nf)
 
             return [SlotSet('city_name', city_namee),
-                    ReminderScheduled("ask_reminder_category", datetime.now() + timedelta(seconds=60))]
+                    ReminderScheduled("ask_reminder_category", datetime.now() + timedelta(seconds=300))]
         except:
             dispatcher.utter_message("BigBang Didnt recognize the text! Try Again!")
             return [FollowupAction("action_select_city")]
@@ -528,7 +529,7 @@ class ActionCategory(Action):
                 print(nf)
 
             return [SlotSet('category_name', c_name),
-                    ReminderScheduled("ask_reminder_brand", datetime.now() + timedelta(seconds=60))]
+                    ReminderScheduled("ask_reminder_brand", datetime.now() + timedelta(seconds=300))]
 
         except:
             dispatcher.utter_message('BigBang Didnt recognize the text! Try Again!')
@@ -625,6 +626,8 @@ class ActionWeather(Action):
                 print("brand name not coming")
             else:
                 print("brand name coming" + loc)
+
+            loc = loc.lower()
 
             brand_ls = []
             brand_re = []
@@ -931,7 +934,7 @@ class ActionLocation(Action):
 
         try:
             response = {
-                "text": 'Send us your email to get more deals and offers. Subscribe by clicking the button below',
+                "text": 'Send us your email to get more deals and offers. Subscribe by clicking the button of your email below',
                 "quick_replies": [
                     {
                         "content_type": "user_email"

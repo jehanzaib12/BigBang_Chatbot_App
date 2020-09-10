@@ -30,7 +30,7 @@
 * inform{"email":"attitudebreaker17@gmail.com"}
     - slot{"email":"attitudebreaker17@gmail.com"}
     - utter_goodbye
-* goodbye
+* goodbye 
 
 ##story_handle_fallbackaction_after_action_greet
 * greet
@@ -51,6 +51,8 @@
 * inform{"offers":"get more offers"}
     - slot{"offers":"get more offers"}
     - action_email
+* inform{"email":"attitudebreaker17@gmail.com"}
+    - slot{"email":"attitudebreaker17@gmail.com"}    
     - utter_goodbye
 * goodbye
 
@@ -133,6 +135,7 @@
     - action_brand
 * goodbye
     - utter_goodbye
+* goodbye
 
 ## Story_001011_ask_city_after_deals
 * greet
@@ -190,8 +193,9 @@
     - action_brand
 * goodbye
     - utter_goodbye
+* goodbye    
 * greet
-    - utter_greet
+    - action_greet
 * inform
     - utter_ask_city
 * inform{"city_name":"karachi"}
@@ -555,7 +559,7 @@
     - utter_goodbye
 * goodbye
 
-## New Story
+## bye after asking brand
 
 * greet
     - action_greet
@@ -573,12 +577,34 @@
 * inform{"name":"ego"}
     - slot{"name":"ego"}
     - action_brand
+* goodbye
+    - utter_goodbye
+* goodbye
+
+
+## bye after email
+* greet
+    - action_greet
+    - slot{"brand_detail":"brand details"}
+* brand_deals{"brand_detail":"brand details"}
+    - action_select_city
+    - slot{"city_name":"karachi"}
+* inform{"city_name":"karachi"}
+    - action_city
+    - slot{"city_name":"karachi"}
+    - slot{"category_name":"lifestyle"}
+* inform{"category_name":"lifestyle"}
+    - action_category
+    - slot{"category_name":"lifestyle"}
+* inform{"name":"orchard.pk"}
+    - slot{"name":"orchard.pk"}
+    - action_brand
 * inform{"reviews":"display reviews"}
     - slot{"reviews":"display reviews"}
     - action_opinion
-* inform{"offers":"get more offers"}
     - slot{"offers":"get more offers"}
+* inform{"offers":"get more offers"}
     - action_email
-* inform{"email":"attitudebreaker17@gmail.com"}
-    - slot{"email":"attitudebreaker17@gmail.com"}
+* goodbye
     - utter_goodbye
+* goodbye    

@@ -1,5 +1,5 @@
 session_config:
-  session_expiration_time: 0.0
+  session_expiration_time: 0
   carry_over_slots_to_new_session: true
 intents:
 - greet
@@ -54,17 +54,18 @@ slots:
     type: text
 responses:
   utter_greet:
-  - text: Hello! How can I help?
-    buttons:
-    - title: brand details?
-      payload: brand details?
+  - buttons:
+    - payload: brand details?
+      title: brand details?
+    text: Hello! How can I help?
   utter_ask_city:
   - text: Select Your City From Below List
   utter_ask_category:
   - text: Tell me the category to show you the related brands?
   utter_goodbye:
-  - text: "If you need further assistance you can join this link to talk to our Customer Representative\
-      \ m.me/arsalan.virgo.3.\nIts being nice to talk to you,\nbye bye :)"
+  - text: "If you need further assistance you can join this link to talk to our Customer\
+      \ Representative m.me/arsalan.virgo.3.\nIts being nice to talk to you,\nbye\
+      \ bye :)"
   utter_ask_brand:
   - text: Tell me your favourite brand?
   utter_list_of_deals:
