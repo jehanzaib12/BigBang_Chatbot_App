@@ -17,9 +17,7 @@ class ActionHelloWorld(Action):
     def name(self) -> Text:
         return "action_hello_world"
 
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+    def run(self, dispatcher, tracker, domain):
 
         dispatcher.utter_message(text="Hello World!")
         print("hello world")
