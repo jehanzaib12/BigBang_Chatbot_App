@@ -1859,17 +1859,17 @@
         "intent": "inform",
         "entities": [
           {
-            "start": 11,
-            "end": 18,
-            "entity": "city_name",
-            "value": "karachi",
-            "extractor": "CRFEntityExtractor"
-          },
-          {
             "start": 38,
             "end": 47,
             "entity": "category_name",
             "value": "lifestyle",
+            "extractor": "CRFEntityExtractor"
+          },
+          {
+            "start": 11,
+            "end": 18,
+            "entity": "city_name",
+            "value": "karachi",
             "extractor": "CRFEntityExtractor"
           }
         ],
@@ -1897,16 +1897,16 @@
         "intent": "inform",
         "entities": [
           {
-            "start": 10,
-            "end": 16,
-            "entity": "city_name",
-            "value": "lahore"
-          },
-          {
             "start": 36,
             "end": 50,
             "entity": "category_name",
             "value": "foods & drinks"
+          },
+          {
+            "start": 10,
+            "end": 16,
+            "entity": "city_name",
+            "value": "lahore"
           },
           {
             "start": 72,
@@ -1921,17 +1921,17 @@
         "intent": "inform",
         "entities": [
           {
-            "start": 11,
-            "end": 18,
-            "entity": "city_name",
-            "value": "karachi",
-            "extractor": "CRFEntityExtractor"
-          },
-          {
             "start": 38,
             "end": 47,
             "entity": "category_name",
             "value": "lifestyle",
+            "extractor": "CRFEntityExtractor"
+          },
+          {
+            "start": 11,
+            "end": 18,
+            "entity": "city_name",
+            "value": "karachi",
             "extractor": "CRFEntityExtractor"
           },
           {
@@ -2266,17 +2266,17 @@
         "intent": "inform",
         "entities": [
           {
-            "start": 0,
-            "end": 7,
-            "entity": "reviews",
-            "value": "display",
-            "extractor": "CRFEntityExtractor"
-          },
-          {
             "start": 8,
             "end": 14,
             "entity": "reviews",
             "value": "review",
+            "extractor": "CRFEntityExtractor"
+          },
+          {
+            "start": 0,
+            "end": 7,
+            "entity": "reviews",
+            "value": "display",
             "extractor": "CRFEntityExtractor"
           }
         ],
@@ -2312,7 +2312,7 @@
           {
             "start": 0,
             "end": 13,
-            "entity": "name",
+            "entity": "email",
             "value": "abc@gmail.com",
             "extractor": "CRFEntityExtractor"
           }
@@ -2401,6 +2401,32 @@
       {
         "intent": "goodbye",
         "text": "okay thanks"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "entity": "name",
+            "value": "aseqwnbpoi",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "aseqwnbpoi"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "entity": "name",
+            "value": "egoooooooooooooooo",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "egoooooooooooooooo"
       }
     ],
     "regex_features": [

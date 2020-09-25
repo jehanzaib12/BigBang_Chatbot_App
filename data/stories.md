@@ -30,7 +30,7 @@
 * inform{"email":"attitudebreaker17@gmail.com"}
     - slot{"email":"attitudebreaker17@gmail.com"}
     - utter_goodbye
-* goodbye 
+* goodbye
 
 ##story_handle_fallbackaction_after_action_greet
 * greet
@@ -581,7 +581,6 @@
     - utter_goodbye
 * goodbye
 
-
 ## bye after email
 * greet
     - action_greet
@@ -607,4 +606,39 @@
     - action_email
 * goodbye
     - utter_goodbye
-* goodbye    
+* goodbye
+
+## New Story
+
+* greet
+    - action_greet
+* brand_deals{"brand_detail":"brand details"}
+    - slot{"brand_detail":"brand details"}
+    - action_select_city
+* inform{"city_name":"karachi"}
+    - slot{"city_name":"karachi"}
+    - action_city
+    - slot{"city_name":"karachi"}
+* inform{"category_name":"lifestyle"}
+    - slot{"category_name":"lifestyle"}
+    - action_category
+    - slot{"category_name":"lifestyle"}
+* inform{"name":"egoooooooooooooooo"}
+    - slot{"name":"egoooooooooooooooo"}
+    - action_brand
+    - slot{"name":"egoooooooooooooooo"}
+    - slot{"city_name":"karachi"}
+    - slot{"category_name":"lifestyle"}
+* inform{"name":"ego"}
+    - slot{"name":"ego"}
+    - action_brand
+    - slot{"name":"ego"}
+    - slot{"city_name":"karachi"}
+    - slot{"category_name":"lifestyle"}
+* inform{"reviews":"display reviews"}
+    - slot{"reviews":"display reviews"}
+    - action_email
+* inform{"email":"attitudebreaker17@gmail.com"}
+    - slot{"email":"attitudebreaker17@gmail.com"}
+    - utter_goodbye
+* goodbye
