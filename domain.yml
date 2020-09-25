@@ -63,9 +63,8 @@ responses:
   utter_ask_category:
   - text: Tell me the category to show you the related brands?
   utter_goodbye:
-  - text: "If you need further assistance you can join this link to talk to our Customer\
-      \ Representative m.me/arsalan.virgo.3.\nIts being nice to talk to you,\nbye\
-      \ bye :)"
+  - text: If you need further assistance you can join this link to talk to our Customer
+      Representative m.me/arsalan.virgo.3.Its being nice to talk to you, bye :)
   utter_ask_brand:
   - text: Tell me your favourite brand?
   utter_list_of_deals:
