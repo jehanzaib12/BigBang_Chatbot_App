@@ -32,7 +32,7 @@ class Actiongreet(Action):
             id = int(id)
             print(type(id))
             userid = requests.get(
-                "https://graph.facebook.com/{}?fields=first_name,last_name,profile_pic&access_token=EAAI2m1iiQisBAHLRL2d4QZBgt3jSvJXZBDIqGZA8jHfStjYXh3G2VagFqL5AIdcRYTMIqvlV9TRky68DEXlz3DsSFL4VZBIt7G9WJV0o3jqCfGW95TXAvh3qyZBm66Nb1gLHzIBX8ZCaLUXx6o2aSOjUsCfLljUhYpZBcZBtXXjsvQZDZD".format(
+                "https://graph.facebook.com/{}?fields=first_name,last_name,profile_pic&access_token=EAAI2m1iiQisBAJcZCyYeS99P5zDzSaZCAVZB8NpMYApdRZACVnOUQ2ZAYHfghRE2Gc5N92jSXmcrNkslws9YYeQeGca2WqRZB8ZA96kp9oBquApaQ2gI32vm32TGUhC36els9ZAL0MIAjutGdFqml32mLp6ZAjPLZAZAZAb6JbZAFQa83NQZDZD".format(
                     id)).json()
             print(userid)
             print("getting userid")
@@ -46,7 +46,7 @@ class Actiongreet(Action):
             print(get_started)
             headers = {'content-type': 'application/json'}
 
-            url = "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAI2m1iiQisBAHLRL2d4QZBgt3jSvJXZBDIqGZA8jHfStjYXh3G2VagFqL5AIdcRYTMIqvlV9TRky68DEXlz3DsSFL4VZBIt7G9WJV0o3jqCfGW95TXAvh3qyZBm66Nb1gLHzIBX8ZCaLUXx6o2aSOjUsCfLljUhYpZBcZBtXXjsvQZDZD"
+            url = "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAI2m1iiQisBAJcZCyYeS99P5zDzSaZCAVZB8NpMYApdRZACVnOUQ2ZAYHfghRE2Gc5N92jSXmcrNkslws9YYeQeGca2WqRZB8ZA96kp9oBquApaQ2gI32vm32TGUhC36els9ZAL0MIAjutGdFqml32mLp6ZAjPLZAZAZAb6JbZAFQa83NQZDZD"
 
             requests.post(url=url, data=json.dumps(get_started), headers=headers)
 
@@ -76,7 +76,7 @@ class Actiongreet(Action):
             # dispatcher.utter_custom_json(menu)
             print(menu)
 
-            url = "https://graph.facebook.com/v6.0/me/custom_user_settings?access_token=EAAI2m1iiQisBAHLRL2d4QZBgt3jSvJXZBDIqGZA8jHfStjYXh3G2VagFqL5AIdcRYTMIqvlV9TRky68DEXlz3DsSFL4VZBIt7G9WJV0o3jqCfGW95TXAvh3qyZBm66Nb1gLHzIBX8ZCaLUXx6o2aSOjUsCfLljUhYpZBcZBtXXjsvQZDZD"
+            url = "https://graph.facebook.com/v6.0/me/custom_user_settings?access_token=EAAI2m1iiQisBAJcZCyYeS99P5zDzSaZCAVZB8NpMYApdRZACVnOUQ2ZAYHfghRE2Gc5N92jSXmcrNkslws9YYeQeGca2WqRZB8ZA96kp9oBquApaQ2gI32vm32TGUhC36els9ZAL0MIAjutGdFqml32mLp6ZAjPLZAZAZAb6JbZAFQa83NQZDZD"
 
             requests.post(url=url, data=json.dumps(menu), headers=headers)
 
@@ -90,7 +90,7 @@ class Actiongreet(Action):
             }
             print(body)
             headers = {'content-type': 'application/json'}
-            url = "https://graph.facebook.com/v5.0/me/messages?access_token=EAAI2m1iiQisBAHLRL2d4QZBgt3jSvJXZBDIqGZA8jHfStjYXh3G2VagFqL5AIdcRYTMIqvlV9TRky68DEXlz3DsSFL4VZBIt7G9WJV0o3jqCfGW95TXAvh3qyZBm66Nb1gLHzIBX8ZCaLUXx6o2aSOjUsCfLljUhYpZBcZBtXXjsvQZDZD"
+            url = "https://graph.facebook.com/v5.0/me/messages?access_token=EAAI2m1iiQisBAJcZCyYeS99P5zDzSaZCAVZB8NpMYApdRZACVnOUQ2ZAYHfghRE2Gc5N92jSXmcrNkslws9YYeQeGca2WqRZB8ZA96kp9oBquApaQ2gI32vm32TGUhC36els9ZAL0MIAjutGdFqml32mLp6ZAjPLZAZAZAb6JbZAFQa83NQZDZD"
 
             requests.post(url=url, data=json.dumps(body), headers=headers)
 
