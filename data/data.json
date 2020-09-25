@@ -1897,12 +1897,6 @@
         "intent": "inform",
         "entities": [
           {
-            "start": 36,
-            "end": 50,
-            "entity": "category_name",
-            "value": "foods & drinks"
-          },
-          {
             "start": 10,
             "end": 16,
             "entity": "city_name",
@@ -1913,6 +1907,12 @@
             "end": 79,
             "entity": "name",
             "value": "kaybees"
+          },
+          {
+            "start": 36,
+            "end": 50,
+            "entity": "category_name",
+            "value": "foods & drinks"
           }
         ],
         "text": "i live in lahore and my category is foods & drinks and my brand name is kaybees"
@@ -1920,13 +1920,6 @@
       {
         "intent": "inform",
         "entities": [
-          {
-            "start": 38,
-            "end": 47,
-            "entity": "category_name",
-            "value": "lifestyle",
-            "extractor": "CRFEntityExtractor"
-          },
           {
             "start": 11,
             "end": 18,
@@ -1939,6 +1932,13 @@
             "end": 67,
             "entity": "name",
             "value": "ego",
+            "extractor": "CRFEntityExtractor"
+          },
+          {
+            "start": 38,
+            "end": 47,
+            "entity": "category_name",
+            "value": "lifestyle",
             "extractor": "CRFEntityExtractor"
           }
         ],
