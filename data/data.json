@@ -1859,17 +1859,17 @@
         "intent": "inform",
         "entities": [
           {
-            "start": 38,
-            "end": 47,
-            "entity": "category_name",
-            "value": "lifestyle",
-            "extractor": "CRFEntityExtractor"
-          },
-          {
             "start": 11,
             "end": 18,
             "entity": "city_name",
             "value": "karachi",
+            "extractor": "CRFEntityExtractor"
+          },
+          {
+            "start": 38,
+            "end": 47,
+            "entity": "category_name",
+            "value": "lifestyle",
             "extractor": "CRFEntityExtractor"
           }
         ],
@@ -1903,16 +1903,16 @@
             "value": "lahore"
           },
           {
-            "start": 72,
-            "end": 79,
-            "entity": "name",
-            "value": "kaybees"
-          },
-          {
             "start": 36,
             "end": 50,
             "entity": "category_name",
             "value": "foods & drinks"
+          },
+          {
+            "start": 72,
+            "end": 79,
+            "entity": "name",
+            "value": "kaybees"
           }
         ],
         "text": "i live in lahore and my category is foods & drinks and my brand name is kaybees"
@@ -1928,17 +1928,17 @@
             "extractor": "CRFEntityExtractor"
           },
           {
-            "start": 64,
-            "end": 67,
-            "entity": "name",
-            "value": "ego",
-            "extractor": "CRFEntityExtractor"
-          },
-          {
             "start": 38,
             "end": 47,
             "entity": "category_name",
             "value": "lifestyle",
+            "extractor": "CRFEntityExtractor"
+          },
+          {
+            "start": 64,
+            "end": 67,
+            "entity": "name",
+            "value": "ego",
             "extractor": "CRFEntityExtractor"
           }
         ],
@@ -2266,17 +2266,17 @@
         "intent": "inform",
         "entities": [
           {
-            "start": 8,
-            "end": 14,
-            "entity": "reviews",
-            "value": "review",
-            "extractor": "CRFEntityExtractor"
-          },
-          {
             "start": 0,
             "end": 7,
             "entity": "reviews",
             "value": "display",
+            "extractor": "CRFEntityExtractor"
+          },
+          {
+            "start": 8,
+            "end": 14,
+            "entity": "reviews",
+            "value": "review",
             "extractor": "CRFEntityExtractor"
           }
         ],
