@@ -623,75 +623,41 @@
     - utter_goodbye
 * goodbye
 
-## New Story
+##story_for_irrelevant_response
 
 * greet
     - action_greet
 * brand_deals{"brand_detail":"brand details"}
     - slot{"brand_detail":"brand details"}
     - action_select_city
-* response{"irrelevant_response":"i dont understand"}
-    - slot{"irrelevant_response":"i dont understand"}
-    - action_city
+    - slot{"improper_response":"i dont know"}
+* inform{"improper_response":"i dont know"}
+    - action_irrelevant_response
+    - action_greet
+
+## New Story
+
+* inform{"irrelevant_response":"i dont know"}
+    - slot{"irrelevant_response":"i dont know"}
+    - action_irrelevant_response
+
+## irrelevant_response_for_category
+* greet
+    - action_greet
+* brand_deals{"brand_detail":"Brand details"}
+    - slot{"brand_detail":"Brand details"}
+    - action_select_city
+* inform{"irrelevant_response":"i dont know"}
+    - slot{"irrelevant_response":"i dont know"}
+    - action_irrelevant_response
+    - action_greet
+* brand_deals{"brand_detail":"Brand details"}
+    - slot{"brand_detail":"Brand details"}
     - action_select_city
 * inform{"city_name":"karachi"}
     - slot{"city_name":"karachi"}
     - action_city
     - slot{"city_name":"karachi"}
-* response{"irrelevant_response":"i dont understand"}
-    - slot{"irrelevant_response":"i dont understand"}
-    - action_category
-    - action_city
-    - slot{"city_name":"karachi"}
-* inform{"category_name":"lifestyle"}
-    - slot{"category_name":"lifestyle"}
-    - action_category
-    - slot{"category_name":"lifestyle"}
-* inform{"name":"ego"}
-    - slot{"name":"ego"}
-    - action_brand
-    - slot{"name":"ego"}
-    - slot{"city_name":"karachi"}
-    - slot{"category_name":"lifestyle"}
-* goodbye
-    - utter_goodbye
-* goodbye
-
-## New Story
-
-* brand_deals{"brand_detail":"brand details"}
-    - slot{"brand_detail":"brand details"}
-    - action_select_city
-* response{"irrelevant_response":"i dont understand"}
-    - slot{"irrelevant_response":"i dont understand"}
-    - action_city
-    - action_select_city
-* inform{"city_name":"karachi"}
-    - slot{"city_name":"karachi"}
-    - action_city
-    - slot{"city_name":"karachi"}
-* response{"irrelevant_response":"i dont understand"}
-    - slot{"irrelevant_response":"i dont understand"}
-    - action_category
-    - action_city
-    - slot{"city_name":"karachi"}
-* inform{"category_name":"lifestyle"}
-    - slot{"category_name":"lifestyle"}
-    - action_category
-    - slot{"category_name":"lifestyle"}
-* inform{"name":"ego"}
-    - slot{"name":"ego"}
-    - action_brand
-    - slot{"name":"ego"}
-    - slot{"city_name":"karachi"}
-    - slot{"category_name":"lifestyle"}
-* goodbye
-    - utter_goodbye
-* goodbye
-
-## New Story
-
-* response{"irrelevant_response":"i cant tell"}
-    - slot{"irrelevant_response":"i cant tell"}
-    - action_city
-    - action_select_city
+* inform{"irrelevant_response":"i dont know"}
+    - slot{"irrelevant_response":"i dont know"}
+  	- action_irrelevant_response

@@ -1879,16 +1879,16 @@
         "intent": "inform",
         "entities": [
           {
-            "start": 10,
-            "end": 17,
-            "entity": "city_name",
-            "value": "karachi"
-          },
-          {
             "start": 44,
             "end": 47,
             "entity": "name",
             "value": "ego"
+          },
+          {
+            "start": 10,
+            "end": 17,
+            "entity": "city_name",
+            "value": "karachi"
           }
         ],
         "text": "i live in karachi and my favourite brand is ego"
@@ -1903,16 +1903,16 @@
             "value": "foods & drinks"
           },
           {
-            "start": 72,
-            "end": 79,
-            "entity": "name",
-            "value": "kaybees"
-          },
-          {
             "start": 10,
             "end": 16,
             "entity": "city_name",
             "value": "lahore"
+          },
+          {
+            "start": 72,
+            "end": 79,
+            "entity": "name",
+            "value": "kaybees"
           }
         ],
         "text": "i live in lahore and my category is foods & drinks and my brand name is kaybees"
@@ -1948,17 +1948,17 @@
         "intent": "inform",
         "entities": [
           {
-            "start": 38,
-            "end": 41,
-            "entity": "name",
-            "value": "ego",
-            "extractor": "CRFEntityExtractor"
-          },
-          {
             "start": 15,
             "end": 24,
             "entity": "category_name",
             "value": "lifestyle",
+            "extractor": "CRFEntityExtractor"
+          },
+          {
+            "start": 38,
+            "end": 41,
+            "entity": "name",
+            "value": "ego",
             "extractor": "CRFEntityExtractor"
           }
         ],
@@ -2412,7 +2412,7 @@
         "text": "okay thanks"
       },
       {
-        "intent": "response",
+        "intent": "inform",
         "entities": [
           {
             "start": 0,
@@ -2438,7 +2438,7 @@
         "text": "egoooooooooooooooo"
       },
       {
-        "intent": "response",
+        "intent": "inform",
         "entities": [
           {
             "start": 0,
@@ -2451,7 +2451,7 @@
         "text": "sadweq"
       },
       {
-        "intent": "response",
+        "intent": "inform",
         "entities": [
           {
             "start": 0,
@@ -2464,7 +2464,7 @@
         "text": "asdjqwe"
       },
       {
-        "intent": "response",
+        "intent": "inform",
         "entities": [
           {
             "start": 0,
@@ -2477,7 +2477,7 @@
         "text": "qwebjad"
       },
       {
-        "intent": "response",
+        "intent": "inform",
         "entities": [
           {
             "start": 0,
@@ -2489,19 +2489,20 @@
         "text": "i am not telling"
       },
       {
-        "intent": "response",
+        "intent": "inform",
         "entities": [
           {
             "start": 0,
             "end": 11,
             "entity": "irrelevant_response",
-            "value": "i dont know"
+            "value": "i dont know",
+            "extractor": "CRFEntityExtractor"
           }
         ],
         "text": "i dont know"
       },
       {
-        "intent": "response",
+        "intent": "inform",
         "entities": [
           {
             "start": 0,
@@ -2513,7 +2514,7 @@
         "text": "i think i cannot say "
       },
       {
-        "intent": "response",
+        "intent": "inform",
         "entities": [
           {
             "start": 0,
