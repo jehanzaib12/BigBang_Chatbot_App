@@ -661,3 +661,21 @@
 * inform{"irrelevant_response":"i dont know"}
     - slot{"irrelevant_response":"i dont know"}
   	- action_irrelevant_response
+
+## irrelevant_story_for_brand
+* greet
+    - action_greet
+* brand_deals{"brand_detail":"brand details"}
+    - slot{"brand_detail":"brand details"}
+    - action_select_city
+* inform{"city_name":"karachi"}
+    - slot{"city_name":"karachi"}
+    - action_city
+    - slot{"city_name":"karachi"}
+* inform{"category_name":"lifestyle"}
+    - slot{"category_name":"lifestyle"}
+    - action_category
+    - slot{"category_name":"lifestyle"}
+* inform{"irrelevant_response":"i dont know"}
+    - slot{"irrelevant_response":"i dont know"}
+  	- action_irrelevant_response
