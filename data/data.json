@@ -1879,16 +1879,16 @@
         "intent": "inform",
         "entities": [
           {
-            "start": 10,
-            "end": 17,
-            "entity": "city_name",
-            "value": "karachi"
-          },
-          {
             "start": 44,
             "end": 47,
             "entity": "name",
             "value": "ego"
+          },
+          {
+            "start": 10,
+            "end": 17,
+            "entity": "city_name",
+            "value": "karachi"
           }
         ],
         "text": "i live in karachi and my favourite brand is ego"
@@ -1897,16 +1897,16 @@
         "intent": "inform",
         "entities": [
           {
-            "start": 10,
-            "end": 16,
-            "entity": "city_name",
-            "value": "lahore"
-          },
-          {
             "start": 36,
             "end": 50,
             "entity": "category_name",
             "value": "foods & drinks"
+          },
+          {
+            "start": 10,
+            "end": 16,
+            "entity": "city_name",
+            "value": "lahore"
           },
           {
             "start": 72,
@@ -1921,17 +1921,17 @@
         "intent": "inform",
         "entities": [
           {
-            "start": 11,
-            "end": 18,
-            "entity": "city_name",
-            "value": "karachi",
-            "extractor": "CRFEntityExtractor"
-          },
-          {
             "start": 38,
             "end": 47,
             "entity": "category_name",
             "value": "lifestyle",
+            "extractor": "CRFEntityExtractor"
+          },
+          {
+            "start": 11,
+            "end": 18,
+            "entity": "city_name",
+            "value": "karachi",
             "extractor": "CRFEntityExtractor"
           },
           {
@@ -1948,17 +1948,17 @@
         "intent": "inform",
         "entities": [
           {
-            "start": 15,
-            "end": 24,
-            "entity": "category_name",
-            "value": "lifestyle",
-            "extractor": "CRFEntityExtractor"
-          },
-          {
             "start": 38,
             "end": 41,
             "entity": "name",
             "value": "ego",
+            "extractor": "CRFEntityExtractor"
+          },
+          {
+            "start": 15,
+            "end": 24,
+            "entity": "category_name",
+            "value": "lifestyle",
             "extractor": "CRFEntityExtractor"
           }
         ],
@@ -2128,7 +2128,7 @@
           {
             "start": 0,
             "end": 6,
-            "entity": "name",
+            "entity": "irrelevant_response",
             "value": "wqeqwe",
             "extractor": "CRFEntityExtractor"
           }
@@ -2141,7 +2141,7 @@
           {
             "start": 0,
             "end": 5,
-            "entity": "name",
+            "entity": "irrelevant_response",
             "value": "qweax",
             "extractor": "CRFEntityExtractor"
           }
@@ -2198,10 +2198,27 @@
       },
       {
         "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "entity": "irrelevant_response",
+            "value": "thwef"
+          }
+        ],
         "text": "thwef"
       },
       {
         "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "entity": "irrelevant_response",
+            "value": "i dont know",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
         "text": "i dont know"
       },
       {
@@ -2227,7 +2244,7 @@
           {
             "start": 0,
             "end": 6,
-            "entity": "name",
+            "entity": "irrelevant_response",
             "value": "asdqwe",
             "extractor": "CRFEntityExtractor"
           }
@@ -2408,7 +2425,7 @@
           {
             "start": 0,
             "end": 10,
-            "entity": "name",
+            "entity": "irrelevant_response",
             "value": "aseqwnbpoi",
             "extractor": "CRFEntityExtractor"
           }

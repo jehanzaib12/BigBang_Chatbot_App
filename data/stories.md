@@ -56,39 +56,6 @@
     - utter_goodbye
 * goodbye
 
-## New Story
-* greet
-    - action_greet
-* inform
-    - action_select_city
-* inform
-    - action_city
-    - action_select_city
-* inform{"city_name":"karachi"}
-    - slot{"city_name":"karachi"}
-    - action_city
-* inform
-    - action_category
-    - action_city
-* ask_reminder_category
-    - action_category_reminder
-* inform{"category_name":"lifestyle"}
-    - action_category
-    - slot{"category_name":"lifestyle"}
-* inform{"name":"ego"}
-    - slot{"name":"ego"}
-    - action_brand
-* inform{"reviews":"Display Reviews"}
-    - slot{"reviews":"Display Reviews"} 
-    - action_opinion    
-* inform{"offers":"Get More Offers"}
-    - slot{"offers":"Get More Offers"}
-    - action_email
-* inform{"email":"attitudebreaker17@gmail.com"}
-    - slot{"email":"attitudebreaker17@gmail.com"}
-    - utter_goodbye
-* goodbye
-
 ## story_004
 
 * greet
