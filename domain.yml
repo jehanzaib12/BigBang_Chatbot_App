@@ -15,6 +15,7 @@ intents:
 - wishes
 - out_of_scope
 - ask_reminder
+- response
 entities:
 - city_name
 - category_name
@@ -49,6 +50,8 @@ slots:
   offers:
     type: text
   reply:
+    type: text
+  response:
     type: text
   reviews:
     type: text

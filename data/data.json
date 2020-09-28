@@ -1879,16 +1879,16 @@
         "intent": "inform",
         "entities": [
           {
-            "start": 44,
-            "end": 47,
-            "entity": "name",
-            "value": "ego"
-          },
-          {
             "start": 10,
             "end": 17,
             "entity": "city_name",
             "value": "karachi"
+          },
+          {
+            "start": 44,
+            "end": 47,
+            "entity": "name",
+            "value": "ego"
           }
         ],
         "text": "i live in karachi and my favourite brand is ego"
@@ -1897,10 +1897,10 @@
         "intent": "inform",
         "entities": [
           {
-            "start": 36,
-            "end": 50,
-            "entity": "category_name",
-            "value": "foods & drinks"
+            "start": 72,
+            "end": 79,
+            "entity": "name",
+            "value": "kaybees"
           },
           {
             "start": 10,
@@ -1909,10 +1909,10 @@
             "value": "lahore"
           },
           {
-            "start": 72,
-            "end": 79,
-            "entity": "name",
-            "value": "kaybees"
+            "start": 36,
+            "end": 50,
+            "entity": "category_name",
+            "value": "foods & drinks"
           }
         ],
         "text": "i live in lahore and my category is foods & drinks and my brand name is kaybees"
@@ -1920,13 +1920,6 @@
       {
         "intent": "inform",
         "entities": [
-          {
-            "start": 38,
-            "end": 47,
-            "entity": "category_name",
-            "value": "lifestyle",
-            "extractor": "CRFEntityExtractor"
-          },
           {
             "start": 11,
             "end": 18,
@@ -1939,6 +1932,13 @@
             "end": 67,
             "entity": "name",
             "value": "ego",
+            "extractor": "CRFEntityExtractor"
+          },
+          {
+            "start": 38,
+            "end": 47,
+            "entity": "category_name",
+            "value": "lifestyle",
             "extractor": "CRFEntityExtractor"
           }
         ],
@@ -2209,7 +2209,7 @@
         "text": "thwef"
       },
       {
-        "intent": "inform",
+        "intent": "response",
         "entities": [
           {
             "start": 0,
@@ -2239,7 +2239,7 @@
         "text": "i dont wanna tell"
       },
       {
-        "intent": "inform",
+        "intent": "response",
         "entities": [
           {
             "start": 0,
@@ -2256,7 +2256,15 @@
         "text": "lifestye"
       },
       {
-        "intent": "inform",
+        "intent": "response",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "entity": "irrelevant_response",
+            "value": "i cant tell"
+          }
+        ],
         "text": "i cant tell"
       },
       {
@@ -2420,7 +2428,7 @@
         "text": "okay thanks"
       },
       {
-        "intent": "inform",
+        "intent": "response",
         "entities": [
           {
             "start": 0,
@@ -2444,6 +2452,105 @@
           }
         ],
         "text": "egoooooooooooooooo"
+      },
+      {
+        "intent": "response",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "entity": "irrelevant_response",
+            "value": "sadweq",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "sadweq"
+      },
+      {
+        "intent": "response",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "entity": "irrelevant_response",
+            "value": "asdjqwe",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "asdjqwe"
+      },
+      {
+        "intent": "response",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "entity": "irrelevant_response",
+            "value": "qwebjad",
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "qwebjad"
+      },
+      {
+        "intent": "response",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "entity": "irrelevant_response",
+            "value": "i dontk now"
+          }
+        ],
+        "text": "i dontk now"
+      },
+      {
+        "intent": "response",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "entity": "irrelevant_response",
+            "value": "i am not telling"
+          }
+        ],
+        "text": "i am not telling"
+      },
+      {
+        "intent": "response",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "entity": "irrelevant_response",
+            "value": "i dont know"
+          }
+        ],
+        "text": "i dont know  "
+      },
+      {
+        "intent": "response",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "entity": "irrelevant_response",
+            "value": "i dont understand "
+          }
+        ],
+        "text": "i dont understand "
+      },
+      {
+        "intent": "response",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "entity": "irrelevant_response",
+            "value": "i dont understand"
+          }
+        ],
+        "text": "i dont understand"
       }
     ],
     "regex_features": [
