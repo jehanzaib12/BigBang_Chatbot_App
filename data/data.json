@@ -1897,12 +1897,6 @@
         "intent": "inform",
         "entities": [
           {
-            "start": 36,
-            "end": 50,
-            "entity": "category_name",
-            "value": "foods & drinks"
-          },
-          {
             "start": 72,
             "end": 79,
             "entity": "name",
@@ -1913,6 +1907,12 @@
             "end": 16,
             "entity": "city_name",
             "value": "lahore"
+          },
+          {
+            "start": 36,
+            "end": 50,
+            "entity": "category_name",
+            "value": "foods & drinks"
           }
         ],
         "text": "i live in lahore and my category is foods & drinks and my brand name is kaybees"
@@ -1948,17 +1948,17 @@
         "intent": "inform",
         "entities": [
           {
-            "start": 15,
-            "end": 24,
-            "entity": "category_name",
-            "value": "lifestyle",
-            "extractor": "CRFEntityExtractor"
-          },
-          {
             "start": 38,
             "end": 41,
             "entity": "name",
             "value": "ego",
+            "extractor": "CRFEntityExtractor"
+          },
+          {
+            "start": 15,
+            "end": 24,
+            "entity": "category_name",
+            "value": "lifestyle",
             "extractor": "CRFEntityExtractor"
           }
         ],
@@ -2209,10 +2209,6 @@
         "text": "thwef"
       },
       {
-        "intent": "response",
-        "text": "i dont know"
-      },
-      {
         "intent": "inform",
         "entities": [
           {
@@ -2224,10 +2220,6 @@
           }
         ],
         "text": "Display Reviews"
-      },
-      {
-        "intent": "inform",
-        "text": "i dont wanna tell"
       },
       {
         "intent": "response",
@@ -2283,17 +2275,17 @@
         "intent": "inform",
         "entities": [
           {
-            "start": 8,
-            "end": 14,
-            "entity": "reviews",
-            "value": "review",
-            "extractor": "CRFEntityExtractor"
-          },
-          {
             "start": 0,
             "end": 7,
             "entity": "reviews",
             "value": "display",
+            "extractor": "CRFEntityExtractor"
+          },
+          {
+            "start": 8,
+            "end": 14,
+            "entity": "reviews",
+            "value": "review",
             "extractor": "CRFEntityExtractor"
           }
         ],
@@ -2489,18 +2481,6 @@
         "entities": [
           {
             "start": 0,
-            "end": 11,
-            "entity": "irrelevant_response",
-            "value": "i dontk now"
-          }
-        ],
-        "text": "i dontk now"
-      },
-      {
-        "intent": "response",
-        "entities": [
-          {
-            "start": 0,
             "end": 16,
             "entity": "irrelevant_response",
             "value": "i am not telling"
@@ -2518,31 +2498,32 @@
             "value": "i dont know"
           }
         ],
-        "text": "i dont know  "
+        "text": "i dont know"
       },
       {
         "intent": "response",
         "entities": [
           {
             "start": 0,
-            "end": 18,
+            "end": 20,
             "entity": "irrelevant_response",
-            "value": "i dont understand "
+            "value": "i think i cannot say"
           }
         ],
-        "text": "i dont understand "
+        "text": "i think i cannot say "
       },
       {
-        "intent": "response",
+        "intent": "inform",
         "entities": [
           {
             "start": 0,
-            "end": 17,
+            "end": 20,
             "entity": "irrelevant_response",
-            "value": "i dont understand"
+            "value": "i think i cannot say",
+            "extractor": "CRFEntityExtractor"
           }
         ],
-        "text": "i dont understand"
+        "text": "i think i cannot say"
       }
     ],
     "regex_features": [
