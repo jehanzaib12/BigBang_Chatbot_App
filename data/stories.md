@@ -4,6 +4,7 @@
 * inform
     - action_select_city
 * inform{"city_name":"karachi"}
+	- slot{"city_name":"karachi"}
     - action_city
 * inform{"category_name":"lifestyle"}
     - slot{"category_name":"lifestyle"}
@@ -117,7 +118,6 @@
 * inform{"city_name":"karachi"}
     - slot{"city_name":"karachi"}
     - action_city
-    - slot{"city_name":"karachi"}
 * inform{"category_name":"lifestyle"}
     - slot{"category_name":"lifestyle"}
     - action_category
@@ -152,6 +152,7 @@
     - slot{"brand_detail":"brand_details"}
     - action_select_city
 * inform{"city_name":"karachi"}
+	- slot{"city_name":"karachi"}
     - action_city
 * ask_reminder
     - action_set_reminder
@@ -191,6 +192,7 @@
     - slot{"brand_detail":"brand_details"}
     - action_select_city
 * inform{"city_name":"karachi"}
+	- slot{"city_name":"karachi"}
     - action_city
 * inform{"category_name":"lifestyle"}
     - slot{"category_name":"lifestyle"}
@@ -218,6 +220,7 @@
     - slot{"brand_detail":"Brand deals?"}
     - action_select_city
 * inform{"city_name":"karachi"}
+	- slot{"city_name":"karachi"}
     - action_city
 * inform{"category_name":"lifestyle"}
     - slot{"category_name":"lifestyle"}
@@ -245,6 +248,7 @@
     - slot{"brand_detail":"brand_details"}
     - action_select_city
 * inform{"city_name":"karachi"}
+	- slot{"city_name":"karachi"}
     - action_city
 * inform{"category_name":"lifestyle"}
     - slot{"category_name":"lifestyle"}
@@ -347,6 +351,7 @@
     - slot{"brand_detail":"Brand deals?"}
     - action_select_city
 * inform{"city_name":"karachi"}
+	- slot{"city_name":"karachi"}
     - action_city
 * inform{"category_name":"lifestyle"}
     - slot{"category_name":"lifestyle"}
