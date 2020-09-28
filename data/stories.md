@@ -683,3 +683,10 @@
 * goodbye
     - utter_goodbye
 * goodbye
+
+## New Story
+
+* response{"irrelevant_response":"i cant tell"}
+    - slot{"irrelevant_response":"i cant tell"}
+    - action_city
+    - action_select_city
